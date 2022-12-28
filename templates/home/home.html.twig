@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ title|trans }} | {{ parent() }}{% endblock %}
+
+{% block main %}
+<main class="home">
+    <article class="mx-auto text-center p-3 bg-white bg-opacity-75 w-75 rounded-4">
+        <h1>{% trans %}Welcome to test an API Rest !{% endtrans %}</h1>
+        <p class="mt-2 px-2">{% trans %}This test is send a file with conditions (format, size, extension, head, columns...) to an API.{% endtrans %}</p>
+        <p class="mt-2 px-2">{% trans %}This API return a reponse if the file submited is good.{% endtrans %}</p>
+        <p class="mt-2 px-2">{% trans %}Go to test...{% endtrans %}</p>
+    </article>
+</main>
+{% endblock %}

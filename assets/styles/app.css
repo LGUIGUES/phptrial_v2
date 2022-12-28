@@ -1,0 +1,32 @@
+@import '~bootstrap';
+
+.content {
+    background: url('../../public/img/background/background_min.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home { 
+    padding-top: 3rem;   
+    padding-bottom: 3rem;
+}
+
+.error {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.logo {
+    width: 2rem;
+    height: auto;
+    margin-right: 4rem;
+}
+
+.icon-lang {
+    width: 1.5rem;
+    height: auto;
+    margin: 0.7rem 0rem 0 0rem;
+}
+
+h1 {
+    color: var(--bs-blue);
+}
