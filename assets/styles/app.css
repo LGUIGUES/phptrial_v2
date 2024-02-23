@@ -5,9 +5,23 @@
     background-size: cover;
 }
 
-.home { 
-    padding-top: 3rem;   
-    padding-bottom: 3rem;
+.main {
+    min-height: 39vh;
+}
+
+.nav-pills .nav-link.active-tab {
+    background-color: transparent;
+    color: #0d6efd;
+}
+
+.nav-pills .nav-link.active-tab:hover {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.center-div {
+    margin-top: 40vh;
+    transform: translateY(-50%);
 }
 
 .error {
@@ -29,4 +43,10 @@
 
 h1 {
     color: var(--bs-blue);
+}
+
+.alert-error {
+    color: #58151c;
+    background: #f8d7da;
+    border-color: #f1aeb5;
 }

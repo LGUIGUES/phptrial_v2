@@ -14,7 +14,7 @@ class TranslateController extends AbstractController
     ){}
 
     #[Route('/translate/{locale}', name: 'app_translate')]
-    public function translate(Request $request, $locale ): Response
+    public function translate(Request $request, $locale): Response
     {  
         if (in_array($locale, $this->languages)) {
             // Save language in Session

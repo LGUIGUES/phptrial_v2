@@ -7,39 +7,83 @@
     <body>
       <trans-unit id="2DZ.3x9" resname="API Logo">
         <source>API Logo</source>
-        <target>__API Logo</target>
+        <target>Logo API</target>
       </trans-unit>
       <trans-unit id="OnhpU4i" resname="Home">
         <source>Home</source>
-        <target>__Home</target>
+        <target>Accueil</target>
       </trans-unit>
       <trans-unit id="H2fND4i" resname="API Test">
         <source>API Test</source>
-        <target>__API Test</target>
+        <target>Test API</target>
       </trans-unit>
       <trans-unit id="qk_FUWl" resname="Propulsed by Symfony">
         <source>Propulsed by Symfony</source>
-        <target>__Propulsed by Symfony</target>
+        <target>Propulsé par Symfony</target>
       </trans-unit>
-      <trans-unit id="W1k4Wr7" resname="Welcome !">
-        <source>Welcome !</source>
-        <target>__Welcome !</target>
+      <trans-unit id="hestk9M" resname="Page not found!">
+        <source>Page not found!</source>
+        <target>Page introuvable !</target>
+      </trans-unit>
+      <trans-unit id="yj8UEbR" resname="Return to home">
+        <source>Return to home</source>
+        <target>Retour à l'accueil</target>
       </trans-unit>
       <trans-unit id="NxHy2n_" resname="Welcome to test an API Rest !">
         <source>Welcome to test an API Rest !</source>
-        <target>__Welcome to test an API Rest !</target>
+        <target>Bienvenue pour tester une API !</target>
       </trans-unit>
       <trans-unit id="HUDjzwI" resname="This test is send a file with conditions (format, size, extension, head, columns...) to an API.">
         <source>This test is send a file with conditions (format, size, extension, head, columns...) to an API.</source>
-        <target>__This test is send a file with conditions (format, size, extension, head, columns...) to an API.</target>
+        <target>Ce test consiste à envoyer un fichier avec des conditions (format, taille, extension, en-tête, colonnes...) à une API.</target>
       </trans-unit>
       <trans-unit id="ZtB85G0" resname="This API return a reponse if the file submited is good.">
         <source>This API return a reponse if the file submited is good.</source>
-        <target>__This API return a reponse if the file submited is good.</target>
+        <target>Cette API renvoie une réponse si le fichier soumis est bon.</target>
       </trans-unit>
       <trans-unit id="z50x04f" resname="Go to test...">
         <source>Go to test...</source>
-        <target>__Go to test...</target>
+        <target>Vous pouvez tester...</target>
+      </trans-unit>
+      <trans-unit id="4hTXSXo" resname="API Results">
+        <source>API Results</source>
+        <target>Résultats de l'API</target>
+      </trans-unit>
+      <trans-unit id="E0aSRC1" resname="Response :">
+        <source>Response :</source>
+        <target>Réponse :</target>
+      </trans-unit>
+      <trans-unit id="NLuPfS3" resname="SubmittedItems :">
+        <source>SubmittedItems :</source>
+        <target>Items soumis :</target>
+      </trans-unit>
+      <trans-unit id="IU.lu2r" resname="Choose a file and submit it">
+        <source>Choose a file and submit it</source>
+        <target>Choisissez un fichier et soumettez-le</target>
+      </trans-unit>
+      <trans-unit id="sXm3NOs" resname="Accepted format (csv or json) - Max size: 2Mb">
+        <source>Accepted format (csv or json) - Max size: 2Mb</source>
+        <target>Format accepté (csv ou json) - Taille max : 2Mo</target>
+      </trans-unit>
+      <trans-unit id="req8XsB" resname="Your file">
+        <source>Your file</source>
+        <target>Votre fichier</target>
+      </trans-unit>
+      <trans-unit id="FV_BbAQ" resname="Submit">
+        <source>Submit</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="1cIKEdi" resname="The requested page couldn't be located.">
+        <source>The requested page couldn't be located.</source>
+        <target>La page demandée est introuvable.</target>
+      </trans-unit>
+      <trans-unit id="J66iKwh" resname="Missing or malformated fields !">
+        <source>Missing or malformated fields !</source>
+        <target>Champs manquants ou mal formatés !</target>
+      </trans-unit>
+      <trans-unit id="d.mPfjL" resname="The API call was successful.">
+        <source>The API call was successful.</source>
+        <target>L'appel à l'API a réussi.</target>
       </trans-unit>
     </body>
   </file>

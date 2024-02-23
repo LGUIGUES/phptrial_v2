@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>{% block title %}{% trans %}Welcome !{% endtrans %}{% endblock %}</title>
+        <title>{% block title %}{% trans %}API Test{% endtrans %}{% endblock %}</title>
         <link rel="icon" href="{{ asset('img/logo/logo_api.svg') }}">
         {% block stylesheets %}
             {{ encore_entry_link_tags('app') }}
@@ -15,9 +15,9 @@
         <header class="d-flex justify-content-center py-3 bg-white bg-opacity-75">
         <img class="logo" src="{{ asset('img/logo/logo_api.svg') }}" alt="{% trans %}API Logo{% endtrans %}">
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="{{ path('app_home') }} " class="nav-link active" aria-current="page">{% trans %}Home{% endtrans %}</a></li>
-                <li class="nav-item"><a href="{{ path('app_send_file') }} " class="nav-link">{% trans %}API Test{% endtrans %}</a></li>
-                <li class="nav-item">
+                <li class="nav-item"><a href="{{ path('app_home') }}" class="nav-link active-tab" aria-current="page">{% trans %}Home{% endtrans %}</a></li>
+                <li class="nav-item"><a href="{{ path('app_send_file') }}" class="nav-link active-tab">{% trans %}API Test{% endtrans %}</a></li>
+                <li class="nav-item ms-2">
                 <!-- Display flags Languages -->
                     {% for locale in locales %}                    
                         {% if locale != app.request.locale %}
